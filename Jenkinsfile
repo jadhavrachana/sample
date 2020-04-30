@@ -1,6 +1,7 @@
 // Example of Jenkins pipeline script
 
 pipeline {
+  agent any
   stages {
     stage("Build") {
        steps {
